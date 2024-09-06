@@ -1,0 +1,26 @@
+{
+  "name": "http-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index.js",
+    "prod": "NODE_ENV=production node index.js",
+    "build": "NODE_ENV=production node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ryan Allred",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.25.2",
+    "@mjackson/node-fetch-server": "0.1.0",
+    "esbuild": "0.23.1",
+    "htm": "3.1.1",
+    "mime-types": "2.1.35",
+    "preact": "10.23.2",
+    "preact-render-to-string": "6.5.10",
+    "vhtml": "2.2.0"
+  }
+}
